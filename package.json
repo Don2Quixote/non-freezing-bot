@@ -1,0 +1,15 @@
+{
+  "name": "non-freezing-bot",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+      "compile": "tsc --project tsconfig.json"
+  },
+  "author": "Don2Quixote",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  }
+}
