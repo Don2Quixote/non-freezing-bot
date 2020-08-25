@@ -37,6 +37,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 var fs = require("fs");
+var path = require("path");
+process.chdir(path.dirname(process.argv[1]));
 if (!fs.existsSync('users')) {
     fs.mkdirSync('users');
 }

@@ -1,4 +1,6 @@
 import * as fs from 'fs'
+import * as path from 'path'
+process.chdir(path.dirname(process.argv[1]))
 if (!fs.existsSync('users')) {
     fs.mkdirSync('users')
 }
